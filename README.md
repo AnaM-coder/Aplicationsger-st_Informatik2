@@ -1,7 +1,12 @@
-# BMLD-Inf2-AppV0
+# BMLD-Inf2-AppIdealWeightCalculator
 
-Ana Maria Andrade 
+Version 1.0 der Ideal Weight Calculator-App für den Kurs "Informatik 2" (Bachelor BMLD/ZHAW).Der Ideal Weight App besiert auf der Devine-Formel: 
 
-andraana@students.zhaw.ch
+Männer: Idealgewicht (kg) = 50 + 2.3 kg für jeden Zentimeter über 152 cm
 
-Das leere Gerüst um eine App aufzubauen.
+Frauen: Idealgewicht (kg) = 45.5 + 2.3 kg für jeden Zentimeter über 152 cm
+
+link to the App: 
+
+Author:
+Ana Maria Andrade (andraana@students.zhaw.ch)
