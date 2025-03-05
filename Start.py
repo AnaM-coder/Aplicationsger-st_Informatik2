@@ -22,7 +22,7 @@ def berechne_idealgewicht(geschlecht, groesse):
 
     return round(idealgewicht, 2)
 
-# Streamlit App
+# titel
 st.title("Idealgewicht Rechner")
 
 # Benutzeroberfläche
