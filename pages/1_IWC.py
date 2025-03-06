@@ -23,3 +23,13 @@ if st.button("Berechnen"):
     idealgewicht = berechne_idealgewicht(geschlecht, groesse)
     st.write(f"Dein ideales Körpergewicht liegt bei: {idealgewicht} kg.")
 
+st.title('Idealgewicht Rechner')
+
+st.markdown("Wilkommen beim Idealgewicht Rechner 🎉 deinem persönlichen Wegweiser zu einem gesunden Körpergewicht!")
+st.markdown("🏃 Diese Rechner vewendet die ältesten und bekanntesten Methode zur Berechnung des Idealgewichts. Diese bewärte Formel, gibt dir eine einfache und schnelle Einschätzung deines Idealgewichts"
+            "basierend auf deiner Körpergröße und deinem Geschlecht. 🏃")
+        
+# Add some health advice
+st.info("""Deine persönliche Ergebnisse können variieren, basierend auf weiteren Gesundheitsfaktoren!""")
+st.info("""Bitte beachte, dass dies nur eine Schätzung ist und keine professionelle medizinische Beratung ersetzt!""")
+st.info("""Wenn du Fragen zu deinem Idealgewicht hast, wende dich bitte an deinen Arzt oder Ernährungsberater!"""
