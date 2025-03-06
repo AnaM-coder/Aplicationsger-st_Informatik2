@@ -4,8 +4,6 @@ st.title("Unterseite A")
 
 st.write("Diese Seite ist eine Unterseite der Startseite.")
 
-import streamlit as st
-
 # Berechnung des Idealgewichts -  Devine Formel
 def berechne_idealgewicht(geschlecht, groesse):
     if geschlecht.lower() == "männlich":
