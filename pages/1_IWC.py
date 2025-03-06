@@ -1,7 +1,5 @@
 import streamlit as st
 
-st.title("Idealgewicht Rechner")
-
 # Berechnung des Idealgewichts -  Devine Formel
 def berechne_idealgewicht(geschlecht, groesse):
     if geschlecht.lower() == "männlich":
