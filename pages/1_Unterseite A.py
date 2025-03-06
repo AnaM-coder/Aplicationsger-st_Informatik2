@@ -1,8 +1,6 @@
 import streamlit as st
 
-st.title("Unterseite A")
-
-st.write("Diese Seite ist eine Unterseite der Startseite.")
+st.title("Idealgewicht Rechner")
 
 # Berechnung des Idealgewichts -  Devine Formel
 def berechne_idealgewicht(geschlecht, groesse):
