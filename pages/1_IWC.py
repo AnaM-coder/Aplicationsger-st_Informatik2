@@ -32,4 +32,5 @@ st.markdown("🏃 Diese Rechner vewendet die ältesten und bekanntesten Methode 
 # Add some health advice
 st.info("""Deine persönliche Ergebnisse können variieren, basierend auf weiteren Gesundheitsfaktoren!""")
 st.info("""Bitte beachte, dass dies nur eine Schätzung ist und keine professionelle medizinische Beratung ersetzt!""")
-st.info("""Wenn du Fragen zu deinem Idealgewicht hast, wende dich bitte an deinen Arzt oder Ernährungsberater!"""
+st.info("""Wenn du Fragen zu deinem Idealgewicht hast, wende dich bitte an deinen Arzt oder Ernährungsberatung!""")
+
