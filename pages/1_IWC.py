@@ -11,8 +11,7 @@ def berechne_idealgewicht(geschlecht, groesse):
 
     return round(idealgewicht, 2)
 
-# titel
-st.title("Idealgewicht Rechner")
+
 
 # Benutzeroberfläche
 geschlecht = st.selectbox("Wähle dein Geschlecht", ["männlich", "weiblich"])
