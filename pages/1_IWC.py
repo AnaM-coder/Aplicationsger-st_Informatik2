@@ -11,7 +11,7 @@ def berechne_idealgewicht(geschlecht, groesse):
 
     return round(idealgewicht, 2)
 
-
+st.title("IWC")
 
 # Benutzeroberfläche
 geschlecht = st.selectbox("Wähle dein Geschlecht", ["männlich", "weiblich"])
