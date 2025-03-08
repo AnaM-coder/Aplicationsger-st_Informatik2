@@ -36,5 +36,5 @@ if submit_button:
         st.write(f"Dein ideales Körpergewicht liegt bei: {idealgewicht} kg.")
 import streamlit as st
 
-if st.button("Home"):
+if st.button("Start"):
     st.switch_page("IWC.py")
