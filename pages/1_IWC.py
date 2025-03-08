@@ -34,7 +34,3 @@ if submit_button:
     else:
         idealgewicht = berechne_idealgewicht(geschlecht, groesse)
         st.write(f"Dein ideales Körpergewicht liegt bei: {idealgewicht} kg.")
-import streamlit as st
-
-if st.button("Start"):
-    st.switch_page("IWC.py")
