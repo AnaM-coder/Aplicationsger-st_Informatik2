@@ -6,7 +6,7 @@ Männer: Idealgewicht (kg) = 50 + 2.3 kg für jeden Zentimeter über 152 cm
 
 Frauen: Idealgewicht (kg) = 45.5 + 2.3 kg für jeden Zentimeter über 152 cm
 
-link to the App: 
+link to the App: https://andrapp1.streamlit.app/IWC
 
 Author:
 Ana Maria Andrade (andraana@students.zhaw.ch)
