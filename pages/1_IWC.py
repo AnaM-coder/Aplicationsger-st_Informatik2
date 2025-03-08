@@ -20,7 +20,7 @@ st.markdown("Dieser Rechner verwendet die Devine-Formel zur Berechnung des Ideal
 
 # Benutzeroberfläche
 geschlecht = st.selectbox("Wähle dein Geschlecht", ["männlich", "weiblich"])
-groesse = st.number_input("Gib deine Körpergröße in cm ein:", min_value=50, max_value=300)
+groesse = st.number_input("Gib deine Körpergröße in cm ein:", min_value=152, max_value=300)
 
 # Berechnungsbutton
 if st.button("Berechnen"):
