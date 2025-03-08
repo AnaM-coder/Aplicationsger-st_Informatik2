@@ -1,7 +1,10 @@
 import streamlit as st
 
-# Berechnung des Idealgewichts -  Devine Formel
+# Berechnung des Idealgewichts - Devine Formel
 def berechne_idealgewicht(geschlecht, groesse):
+    if groesse < 152:
+        return "Die Körpergröße sollte mindestens 152 cm betragen."
+
     if geschlecht.lower() == "männlich":
         idealgewicht = 50 + 2.3 * (groesse - 152) / 2.54  # Umrechnung von cm in Zoll
     elif geschlecht.lower() == "weiblich":
@@ -13,7 +16,7 @@ def berechne_idealgewicht(geschlecht, groesse):
 
 st.title("Idealgewicht Rechner")
 
-st.markdown("Diese Rechner verwendet die älteste und bekannteste Methode zur Berechnung des Idealgewichts. Diese bewährte Formel gibt dir eine einfache und schnelle Einschätzung deines Idealgewichts basierend auf deiner Körpergröße und deinem Geschlecht.")
+st.markdown("Dieser Rechner verwendet die Devine-Formel zur Berechnung des Idealgewichts.")
 
 # Benutzeroberfläche
 geschlecht = st.selectbox("Wähle dein Geschlecht", ["männlich", "weiblich"])
