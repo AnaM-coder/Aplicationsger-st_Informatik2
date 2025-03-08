@@ -34,7 +34,5 @@ if submit_button:
     else:
         idealgewicht = berechne_idealgewicht(geschlecht, groesse)
         st.write(f"Dein ideales Körpergewicht liegt bei: {idealgewicht} kg.")
-        
-        if st.button("Home"):
+    if st.button("Home"):
             st.switch_page("idealgewicht Rechner.py")
-    
