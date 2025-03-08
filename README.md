@@ -1,6 +1,6 @@
 # BMLD-Inf2-AppIdealWeightCalculator
 
-Version 1.0 der Ideal Weight Calculator-App für den Kurs "Informatik 2" (Bachelor BMLD/ZHAW).Der Ideal Weight App besiert auf der Devine-Formel: 
+Version 1.0 der Ideal Weight Calculator-App -Idealgewicht Rechner- für den Kurs "Informatik 2" (Bachelor BMLD/ZHAW).Der Ideal Weight App besiert auf der Devine-Formel: 
 
 Männer: Idealgewicht (kg) = 50 + 2.3 kg für jeden Zentimeter über 152 cm
 

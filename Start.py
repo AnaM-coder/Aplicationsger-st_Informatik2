@@ -3,7 +3,7 @@ import pandas as pd
 
 st.title("Idealgewicht Rechner")
 
-st.markdown("Wilkommen beim Idealgewicht Rechner 🎉 deinem persönlichen Wegweiser zu einem gesunden Körpergewicht!")
+st.markdown("Willkommen beim Idealgewicht Rechner 🎉, deinem persönlichen Wegweiser zu einem gesunden Körpergewicht!")
 
 st.info("""Deine persönliche Ergebnisse können variieren, basierend auf weiteren Gesundheitsfaktoren!""")
 st.info("""Bitte beachte, dass dies nur eine Schätzung ist und keine professionelle medizinische Beratung ersetzt!""")
