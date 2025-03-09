@@ -37,6 +37,11 @@ if submit_button:
         idealgewicht = berechne_idealgewicht(geschlecht, groesse)
         st.success(f"Dein ideales Körpergewicht liegt bei: {idealgewicht} kg.")
 
+# Diagramm für das Idealgewicht basierend auf der Körpergröße und Geschlecht
+        groessen = np.arange(152, 201, 1)  # Größenspanne von 152 bis 200 cm
+        gewicht_mann = 50 + 0.905 * (groessen - 152)  # Berechnung für Männer
+        gewicht_frau = 45.5 + 0.905 * (groessen - 152)  # Berechnung für Frauen
+
 # Umwandlung der Daten in ein DataFrame für die Nutzung mit Streamlit
 
 df = pd.DataFrame({
