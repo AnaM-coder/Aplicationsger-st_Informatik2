@@ -30,7 +30,18 @@ with st.form(key="idealgewicht_form"):
 # Wenn das Formular abgesendet wird
 if submit_button:
     if groesse < 152:
-        st.write("Die Körpergröße sollte mindestens 152 cm betragen.")
+        st.error("Die Körpergröße sollte mindestens 152 cm betragen.")
     else:
         idealgewicht = berechne_idealgewicht(geschlecht, groesse)
-        st.write(f"Dein ideales Körpergewicht liegt bei: {idealgewicht} kg.")
+        st.success(f"Dein ideales Körpergewicht liegt bei: {idealgewicht} kg.")
+
+# Umwandlung der Daten in ein DataFrame für die Nutzung mit Streamlit
+
+df = pd.DataFrame({
+            'Körpergröße (cm)': groessen,
+            'Männlich Idealgewicht (kg)': gewicht_mann,
+            'Weiblich Idealgewicht (kg)': gewicht_frau
+        })
+# Zeigen der Liniendiagramms basierend auf der Körpergröße
+st.subheader("Idealgewicht basierend auf Körpergröße")
+st.line_chart(df.set_index('Körpergröße (cm)'))
