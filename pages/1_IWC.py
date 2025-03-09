@@ -1,6 +1,4 @@
 import streamlit as st
-import numpy as np
-import pandas as pd
 
 # Berechnung des Idealgewichts - Devine Formel
 def berechne_idealgewicht(geschlecht, groesse):
