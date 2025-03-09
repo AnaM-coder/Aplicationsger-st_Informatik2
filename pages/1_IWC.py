@@ -6,9 +6,9 @@ def berechne_idealgewicht(geschlecht, groesse):
         return "Die Körpergröße sollte mindestens 152 cm betragen."
 
     if geschlecht.lower() == "männlich":
-        idealgewicht = 50 + 0.905 * (groesse - 152)   # Umrechnung von cm in Zoll
+        idealgewicht = 50 + 0.905 * (groesse - 152)
     elif geschlecht.lower() == "weiblich":
-        idealgewicht = 45.5 + 0.905 * (groesse - 152)  # Umrechnung von cm in Zoll (2.54 cm = 1 Zoll, 2.3kg pro Zoll)
+        idealgewicht = 45.5 + 0.905 * (groesse - 152)  
     else:
         return "Ungültiges Geschlecht"
 
