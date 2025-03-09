@@ -4,6 +4,7 @@ import pandas as pd
 st.title("Idealgewicht Rechner")
 
 st.markdown("Willkommen beim Idealgewicht Rechner 🎉, deinem persönlichen Wegweiser zu einem gesunden Körpergewicht!")
+st.markdown("Dieser Rechner verwendet die Devine-Formel zur Berechnung des Idealgewichts.")
 
 st.info("""Deine persönliche Ergebnisse können variieren, basierend auf weiteren Gesundheitsfaktoren!""")
 st.info("""Bitte beachte, dass dies nur eine Schätzung ist und keine professionelle medizinische Beratung ersetzt!""")
