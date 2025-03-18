@@ -15,8 +15,6 @@ data_manager.load_app_data(
     parse_dates = ['timestamp']
     )
 
-st.title("Idealgewicht Rechner")
-
 st.markdown("Willkommen beim Idealgewicht Rechner 🎉, deinem persönlichen Wegweiser zu einem gesunden Körpergewicht!")
 st.markdown("Dieser Rechner verwendet die Devine-Formel zur Berechnung des Idealgewichts.")
 
