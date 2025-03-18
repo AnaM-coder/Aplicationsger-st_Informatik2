@@ -14,11 +14,11 @@ if data_df.empty:
     st.info('Keine IWC Daten vorhanden. Berechnen Sie Ihren BMI auf der Startseite.')
     st.stop()
 
-# Weight over time--------------------------------------------- #Samuel fragen-----ohne Gewicht-!!
+--# Weight over time--------------------------------------------- #Samuel fragen-----ohne Gewicht-!!------
 st.line_chart(data=data_df.set_index('timestamp')['weight'], 
                 use_container_width=True)
 st.caption('Gewicht über Zeit (kg)')
-
+----------------------------------------------------------------------------------------
 # Height over time 
 st.line_chart(data=data_df.set_index('timestamp')['height'],
                 use_container_width=True)
