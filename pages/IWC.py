@@ -34,3 +34,7 @@ if submit_button:
     else:
         idealgewicht = berechne_idealgewicht(geschlecht, groesse)
         st.success(f"Dein ideales Körpergewicht liegt bei: {idealgewicht} kg.")
+        
+    #Unterseite
+    from utils.login_manager import LoginManager
+LoginManager().go_to_login('IWC.py')
