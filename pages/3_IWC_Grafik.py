@@ -7,7 +7,7 @@ LoginManager().go_to_login('Start.py')
 # === BMI Grafik ===
 import streamlit as st
 
-st.title('IWC Verlauf')
+st.title('Idealgewicht Verlauf')
 
 data_df = st.session_state['data_df']
 if data_df.empty:
@@ -15,11 +15,11 @@ if data_df.empty:
     st.stop()
 
 # Height over time 
-st.line_chart(data=data_df.set_index('timestamp')['height'],
+st.line_chart(data=data_df.set_index('timestamp')['groesse'],
                 use_container_width=True)
 st.caption('Größe über Zeit (m)')
 
-# BMI over time
-st.line_chart(data=data_df.set_index('timestamp')['bmi'],
+# IWC over time
+st.line_chart(data=data_df.set_index('timestamp')['idealgewicht'],
                 use_container_width=True)
 st.caption('IWC über Zeit')
