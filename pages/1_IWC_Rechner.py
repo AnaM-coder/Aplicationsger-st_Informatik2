@@ -6,7 +6,7 @@ LoginManager().go_to_login('Start.py')
 # ------------------------------------------------------------
 # Here starts the actual app, which was developed previously
 import streamlit as st
-from ideal_weight_calculator import calculate_iwc
+from uitls.calculations import berechne_idealgewicht
 
 st.title('IWC Rechner')
 
@@ -19,7 +19,7 @@ with st.form("IWC Eingabeformular"):
     submitted = st.form_submit_button("Submit")
     
 if submitted:
-    result = calculate_bmi(height, weight)
+    result = berechne_idealgewicht(geschlecht= ["männlich", "weiblich"], groesse= [min_value=152, max_value=300])
     st.write(f'Ihr IWC ist: {result["iwc"]}')
     st.write(f'Berechnet am: {result["timestamp"].strftime("%d.%m.%Y %H:%M:%S")}')
     st.write(f'Kategorie: {result["category"]}')
