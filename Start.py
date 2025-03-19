@@ -17,6 +17,8 @@ data_manager.load_user_data(
     parse_dates = ['timestamp']
     )
 
+import streamlit as st
+
 st.markdown("Willkommen beim Idealgewicht Rechner 🎉, deinem persönlichen Wegweiser zu einem gesunden Körpergewicht!")
 st.markdown("Dieser Rechner verwendet die Devine-Formel zur Berechnung des Idealgewichts.")
 
