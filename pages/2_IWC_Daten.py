@@ -7,7 +7,7 @@ LoginManager().go_to_login('Start.py')
 # Here starts the actual app, which was developed previously
 import streamlit as st
 
-st.title('Idealgewicht Werte')
+st.title('✅ Idealgewicht Daten')
 
 data_df = st.session_state['data_df']
 if data_df.empty:
