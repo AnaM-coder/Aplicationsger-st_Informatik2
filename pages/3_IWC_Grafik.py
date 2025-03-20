@@ -7,7 +7,7 @@ LoginManager().go_to_login('Start.py')
 # === BMI Grafik ===
 import streamlit as st
 
-st.title('Idealgewicht Verlauf')
+st.title('📊Idealgewicht Verlauf')
 
 data_df = st.session_state['data_df']
 if data_df.empty:

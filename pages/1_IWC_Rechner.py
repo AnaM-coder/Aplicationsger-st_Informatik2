@@ -8,7 +8,7 @@ LoginManager().go_to_login('Start.py')
 import streamlit as st
 from utils.calculations import berechne_idealgewicht
 
-st.title('🧮 IWC Rechner')
+st.title('🧮 Idealgewicht Rechner')
 
 with st.form("IWC Eingabeformular"):
     # User input geschlecht und Körpergröße
